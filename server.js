@@ -9,6 +9,5 @@ const port  = 8000;
 require('./app/routes')(app, {});
 
 app.listen(process.env.PORT || port, () => {
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-
+  console.log("Express server listening");
 })
