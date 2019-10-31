@@ -8,6 +8,6 @@ const port  = 8000;
 
 require('./app/routes')(app, {});
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log("running live on port:", port);
 })
