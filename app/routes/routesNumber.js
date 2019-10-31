@@ -22,7 +22,7 @@
 
 
 
- const { CryptoUtils, Client, LoomProvider, LocalAddress } = require("loom-js");
+const { CryptoUtils, Client, LoomProvider, LocalAddress } = require("loom-js");
 const UpikoContractJson = require('./UpikoApp.json');
 const Web3 = require('web3');
 
