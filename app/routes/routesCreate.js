@@ -1,4 +1,5 @@
- 
+const { CryptoUtils, Client, LoomProvider, LocalAddress } = require("loom-js");
+
  module.exports = function(app, db) {
   app.get('/createSkill', (req, res) => {
 
